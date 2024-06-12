@@ -1,0 +1,36 @@
+h1.grey {
+  background: grey;
+  text-align: center;
+}
+
+
+.img-body, header, {
+  position : absolute;
+  top : 0;
+  right : 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+}
+
+.main {
+  padding: 0px;
+  width:40%;
+  margin-top: 0;
+}
+
+.important {
+  padding: 0px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
