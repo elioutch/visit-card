@@ -1,13 +1,18 @@
-h1.grey {
-  background: grey;
+.header {
+  background-color: lightskyblue;
   text-align: center;
+  margin-top: 250px;
 }
 
 
-.img-body, header, {
+body{
+  background-color: lightslategray;
+}
+
+.img-body {
   position : absolute;
   top : 0;
-  right : 0;
+  left : 0;
 }
 
 a {
@@ -30,19 +35,16 @@ footer{
 }
 
 .container{
-  width: 50%;
+  width: 500px;
   display: flex;
   border: 1rem solid red;
   background-color: lightcoral;
-  position:absolute; 
+  margin:auto
 }
 
 .footer{
-  position: absolute;
-  bottom: 0;
   text-align: center;
-}
-
-p[class="footer"] {
-  text-align: justify;
+  bottom: 0;
+  width: 100%;
+  position: relative;
 }
